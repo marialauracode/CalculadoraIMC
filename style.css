@@ -52,7 +52,13 @@ body{
     cursor:text;
     outline:none;
     margin-bottom:33px;
+    padding-top:10px;
 }
+
+input::placeholder{
+    transform: translateY(-5px);
+}
+
 
 button{
     width: 384px;

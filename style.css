@@ -29,6 +29,16 @@ body{
     color:#A4AAA8;
 }
 
+.inputs-calculo-IMC input{
+    display: block;
+    margin:20px;
+    border:none;
+    background-color: transparent;
+    width: 360px;
+   
+
+}
+
 .classificacao-IMC{
     background-color: blueviolet;
     width: 50%;

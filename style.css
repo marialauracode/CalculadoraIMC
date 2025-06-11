@@ -35,11 +35,32 @@ body{
     border:none;
     background-color: transparent;
     width: 360px;
-   
-
+    border-bottom: 2px solid #cfcfcf;
+    cursor:text;
+    outline:none;
 }
+
+button{
+    width: 384px;
+    padding:10px;
+    border-radius:9px;
+    margin:20px;
+    background-color: #227C9E;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+button:active{
+    opacity: 0.9;
+}
+
 
 .classificacao-IMC{
     background-color: blueviolet;
     width: 50%;
 }
+
+
+
+/*RESPONSIVO*/

@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-IMC{
+    width: 50%;
+}
+
+.container-IMC .texto{
+    margin:20px;
+}
+
+.container-IMC .texto h1{
+    line-height: 70px;
+    color:#414C5C;
+}
+
+.container-IMC .texto p{
+    color:#A4AAA8;
+}
+
+.classificacao-IMC{
+    background-color: blueviolet;
+    width: 50%;
+}

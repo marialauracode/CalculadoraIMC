@@ -24,15 +24,18 @@ body{
 }
 
 .container-IMC .texto h1{
-    line-height: 70px;
     color:#414C5C;
     margin-bottom:70px;
     font-size:3rem;
+
 }
 
 .container-IMC .texto p{
     color:#A4AAA8;
     line-height: 20px;
+    margin-top:-50px;
+    font-size:1rem
+
 }
 
 .inputs-calculo-IMC input{

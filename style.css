@@ -8,6 +8,7 @@
 body{
     background-color:aliceblue;
     display: flex;
+    height: 100vh;
     justify-content: center;
 
 }
@@ -78,10 +79,50 @@ button:active{
 
 
 .classificacao-IMC{
-    background-color: blueviolet;
-    width: 50%;
+    width: 54%;
 }
 
+.classificacao-IMC .container-items{
+    width: 590px;
+    margin-top:147px;
+    height: 550px;
+    display:grid;
+    justify-content:space-around;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.container-items .magreza{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(19, 39, 192);
+    border-radius: 10px;
+}
+
+.container-items .normal{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(182, 198, 32);
+    border-radius: 10px;
+    margin-left:-70px;
+}
+
+.container-items .sobrepeso{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(207, 82, 51);
+    border-radius: 10px;
+    margin-bottom:100px
+}
+
+.container-items .obesidade{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(234, 6, 6);
+    border-radius: 10px;
+    margin-left:-70px;
+}
 
 
 /*RESPONSIVO*/

@@ -1,127 +1,137 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color:aliceblue;
+body {
+    background-color: aliceblue;
     display: flex;
     height: 100vh;
     justify-content: center;
 
 }
 
-.container-IMC{
+.container-IMC {
     width: 50%;
-    margin:70px;
-    padding:100px;
-    margin-top:20px
+    margin: 70px;
+    padding: 100px;
+    margin-top: 20px
 }
 
-.container-IMC .texto{
-    margin:20px;
+.container-IMC .texto {
+    margin: 20px;
 }
 
-.container-IMC .texto h1{
-    color:#414C5C;
-    margin-bottom:70px;
-    font-size:3rem;
+.container-IMC .texto h1 {
+    color: #414C5C;
+    margin-bottom: 70px;
+    font-size: 3rem;
 
 }
 
-.container-IMC .texto p{
-    color:#A4AAA8;
+.container-IMC .texto p {
+    color: #A4AAA8;
     line-height: 20px;
-    margin-top:-50px;
-    font-size:1rem
-
+    margin-top: -50px;
+    font-size: 1rem
 }
 
-.inputs-calculo-IMC{
-    margin:20px;
-    margin-top:50px;
+.inputs-calculo-IMC {
+    margin: 20px;
+    margin-top: 50px;
 }
 
-.inputs-calculo-IMC input{
+.inputs-calculo-IMC input {
     display: block;
-    border:none;
+    border: none;
     background-color: transparent;
     width: 390px;
     border-bottom: 2px solid #cfcfcf;
-    cursor:text;
-    outline:none;
-    margin-bottom:33px;
-    padding-top:10px;
+    cursor: text;
+    outline: none;
+    margin-bottom: 33px;
+    padding-top: 10px;
 }
 
-input::placeholder{
+input::placeholder {
     transform: translateY(-5px);
 }
 
 
-button{
+button {
     width: 384px;
-    padding:10px;
-    border-radius:9px;
-    margin:20px;
+    padding: 10px;
+    border-radius: 9px;
+    margin: 20px;
     background-color: #227C9E;
-    border:none;
-    color:white;
-    cursor:pointer;
-    margin-top:42px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 42px;
 }
 
-button:active{
+button:active {
     opacity: 0.9;
 }
 
 
-.classificacao-IMC{
+.classificacao-IMC {
     width: 54%;
 }
 
-.classificacao-IMC .container-items{
+.classificacao-IMC .container-items {
     width: 590px;
-    margin-top:147px;
+    margin-top: 147px;
     height: 550px;
-    display:grid;
-    justify-content:space-around;
+    display: grid;
+    justify-content: space-around;
     grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
 
+.container-items img{
+    width: 70px;
+    border-radius:50%;
+    background-color:rgba(53, 39, 39, 0.3);
 }
 
 
-.container-items .magreza{
+.container-items .magreza {
     width: 200px;
     height: 200px;
-    background-color: rgb(19, 39, 192);
+    background-color: #96A3AB;
     border-radius: 10px;
+    display: block;
+    text-align: center;
 }
 
-.container-items .normal{
+.container-items .normal {
     width: 200px;
     height: 200px;
-    background-color: rgb(182, 198, 32);
+    background-color:#0AAF68;
     border-radius: 10px;
-    margin-left:-70px;
+    margin-left: -70px;
+    text-align: center;
 }
 
-.container-items .sobrepeso{
+.container-items .sobrepeso {
     width: 200px;
     height: 200px;
-    background-color: rgb(207, 82, 51);
+    background-color: #E2B037;
     border-radius: 10px;
-    margin-bottom:100px
+    margin-bottom: 100px;
+    text-align: center;
 }
 
-.container-items .obesidade{
+.container-items .obesidade {
     width: 200px;
     height: 200px;
-    background-color: rgb(234, 6, 6);
+    background-color: #C3413F;
     border-radius: 10px;
-    margin-left:-70px;
+    margin-left: -70px;
+    text-align: center;
 }
 
 

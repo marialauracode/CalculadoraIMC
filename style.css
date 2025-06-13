@@ -95,8 +95,20 @@ button:active {
     width: 70px;
     border-radius:50%;
     background-color:rgba(53, 39, 39, 0.3);
+    margin:20px;
 }
 
+.container-items h2{
+    font-weight: 900;
+    font-size:1.5rem;
+    line-height: 50px;
+    margin-top:-20px;
+}
+
+.container-items p{
+    font-size:14.5px;
+    margin-top:13px;
+}
 
 .container-items .magreza {
     width: 200px;

@@ -69,11 +69,17 @@ button {
     border: none;
     color: white;
     cursor: pointer;
-    margin-top: 42px;
+    margin-top: 38px;
 }
 
 button:active {
     opacity: 0.9;
+}
+
+#resultadoIMC {
+    font-size: 1rem;
+    color: #323b48;
+    margin: 20px;
 }
 
 
@@ -91,23 +97,23 @@ button:active {
     color: white;
 }
 
-.container-items img{
+.container-items img {
     width: 70px;
-    border-radius:50%;
-    background-color:rgba(53, 39, 39, 0.3);
-    margin:20px;
+    border-radius: 50%;
+    background-color: rgba(53, 39, 39, 0.3);
+    margin: 20px;
 }
 
-.container-items h2{
+.container-items h2 {
     font-weight: 900;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     line-height: 50px;
-    margin-top:-20px;
+    margin-top: -20px;
 }
 
-.container-items p{
-    font-size:14.5px;
-    margin-top:13px;
+.container-items p {
+    font-size: 14.5px;
+    margin-top: 13px;
 }
 
 .container-items .magreza {
@@ -122,7 +128,7 @@ button:active {
 .container-items .normal {
     width: 200px;
     height: 200px;
-    background-color:#0AAF68;
+    background-color: #0AAF68;
     border-radius: 10px;
     margin-left: -70px;
     text-align: center;

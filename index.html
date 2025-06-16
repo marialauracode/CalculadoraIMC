@@ -10,7 +10,7 @@
 
 <body>
 
-    <div class="container-IMC"> <!--Lado esquerdo - cálculo do IMC-->
+    <div class="container-IMC"> 
         <div class="texto">
             <h1>Calcule o seu IMC</h1>
             <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro<br> adotado pela OMS (Organização Mundial da
@@ -19,20 +19,19 @@
             </p>
         </div>
         <div class="inputs-calculo-IMC">
-            <input type="text" name="inputIMC" id="inputAltura"
-                placeholder="Digite a sua altura. Ex: 1.5 ou 1 (em metros)">
+            <input type="text" name="inputIMC" id="inputAltura" placeholder="Digite a sua altura. Ex: 1.5 ou 1 (em metros)">
             <input type="text" name="inputIMC" id="inputPeso" placeholder="Digite o seu peso. Ex: 70.5 ou 70 (em kg)">
         </div>
 
         <button onclick="calcular()">Calcular</button>
 
-        <!--RESULTADO DO CÁLCULO -> paragrafo-ao clicar no botao...-->
+        <p id="resultadoIMC"></p>
     </div>
 
 
-    <div class="classificacao-IMC"><!--Lado direito - classificação do resultado-->
+    <div class="classificacao-IMC">
         <div class="container-items">
-            <div class="magreza"> <!--ícone, título, parágrafo-->
+            <div class="magreza">
                 <img src="./img/joia_negativo.png" alt="joia negativo">
                 <h2>Magreza</h2>
                 <p>IMC está entre 0 e 18.5</p>

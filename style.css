@@ -13,6 +13,7 @@ body {
 
 }
 
+
 .container-IMC {
     width: 50%;
     margin: 70px;
@@ -155,18 +156,3 @@ button:active {
 
 /* Responsividade */
 
-@media (max-width: 785px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-}

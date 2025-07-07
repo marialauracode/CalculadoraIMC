@@ -10,60 +10,58 @@
 
 <body>
 
-    <div class="conteudo-geral">
 
-        <div class="container-IMC">
-            <div class="texto">
-                <h1>Calcule o seu IMC</h1>
-                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro<br> adotado pela OMS (Organização Mundial da
-                    Saúde)
-                    para <br> calcular o peso ideal de cada pessoa.
-                </p>
-            </div>
-            <div class="inputs-calculo-IMC">
-                <input type="text" name="inputIMC" id="inputAltura"
-                    placeholder="Digite a sua altura. Ex: 1.5 ou 1 (em metros)">
-                <input type="text" name="inputIMC" id="inputPeso"
-                    placeholder="Digite o seu peso. Ex: 70.5 ou 70 (em kg)">
-            </div>
-
-            <button onclick="calcular()">Calcular</button>
-
-            <p id="resultadoIMC"></p>
+    <div class="container-IMC">
+        <div class="texto">
+            <h1>Calcule o seu IMC</h1>
+            <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro<br> adotado pela OMS (Organização Mundial da
+                Saúde)
+                para <br> calcular o peso ideal de cada pessoa.
+            </p>
+        </div>
+        <div class="inputs-calculo-IMC">
+            <input type="text" name="inputIMC" id="inputAltura"
+                placeholder="Digite a sua altura. Ex: 1.5 ou 1 (em metros)">
+            <input type="text" name="inputIMC" id="inputPeso" placeholder="Digite o seu peso. Ex: 70.5 ou 70 (em kg)">
         </div>
 
-        <div class="classificacao-IMC">
-            <div class="container-items">
-                <div class="magreza">
-                    <img src="./img/joia_negativo.png" alt="joia negativo">
-                    <h2>Magreza</h2>
-                    <p>IMC está entre 0 e 18.5</p>
-                </div>
-                <div class="normal">
-                    <img src="./img/joia_positivo.png" alt="joia positivo">
-                    <h2>Normal</h2>
-                    <p>IMC está entre 18.6 e 24.9</p>
-                </div>
-                <div class="sobrepeso">
-                    <img src="./img/joia_negativo.png" alt="joia negativo">
-                    <h2>Sobrepeso</h2>
-                    <p>IMC está entre 25 e 30</p>
-                </div>
-                <div class="obesidade">
-                    <img src="./img/joia_negativo.png" alt="joia negativo">
-                    <h2>Obesidade</h2>
-                    <p>IMC está entre 30.1 e 40</p>
-                </div>
+        <button onclick="calcular()">Calcular</button>
+
+        <p id="resultadoIMC"></p>
+    </div>
+
+
+    <div class="classificacao-IMC">
+        <div class="container-items">
+            <div class="magreza">
+                <img src="./img/joia_negativo.png" alt="joia negativo">
+                <h2>Magreza</h2>
+                <p>IMC está entre 0 e 18.5</p>
             </div>
-
+            <div class="normal">
+                <img src="./img/joia_positivo.png" alt="joia positivo">
+                <h2>Normal</h2>
+                <p>IMC está entre 18.6 e 24.9</p>
+            </div>
+            <div class="sobrepeso">
+                <img src="./img/joia_negativo.png" alt="joia negativo">
+                <h2>Sobrepeso</h2>
+                <p>IMC está entre 25 e 30</p>
+            </div>
+            <div class="obesidade">
+                <img src="./img/joia_negativo.png" alt="joia negativo">
+                <h2>Obesidade</h2>
+                <p>IMC está entre 30.1 e 40</p>
+            </div>
         </div>
-
 
     </div>
+
 
 
     <script src="./script.js"></script>
 
 
 </body>
+
 </html>

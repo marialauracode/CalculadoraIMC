@@ -196,15 +196,14 @@ button:active {
         margin-top:30px;
     }
 
-
-
-
-
-
-
-
+    .classificacao-IMC{
+        width: 50%;
+        padding:30px;
+        margin-top:-190px;
+    }
 
     .classificacao-IMC .container-items {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
     }
+
 }

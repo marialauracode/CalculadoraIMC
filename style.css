@@ -29,6 +29,8 @@ body {
     color: #414C5C;
     margin-bottom: 70px;
     font-size: 3rem;
+    white-space: nowrap;
+    /*impede a quebra de linha*/
 
 }
 
@@ -157,35 +159,41 @@ button:active {
 /* Responsividade */
 
 @media (max-width: 785px) {
-    body{
-       flex-wrap: wrap; 
+    body {
+        flex-wrap: wrap;
     }
 
-    .container-IMC{
+    .container-IMC {
         width: 90%;
-        padding:30px;
+        padding: 30px;
     }
 
     .container-IMC .texto h1 {
-        font-size:2.4rem;
+        font-size: 2.4rem;
 
     }
 
-    br {
+    .container-IMC .texto p br{
         display: none;
     }
 
     .container-IMC .texto p {
         line-height: 1.6;
-
     }
 
     .inputs-calculo-IMC input {
         width: 310px;
+        font-size: 14px;
     }
 
-    button{
-        
+    button {
+        width: 130px;
+        padding: 11px;
+        font-size: 16px;
+    }
+
+    #resultadoIMC {
+        margin-top:30px;
     }
 
 
@@ -196,8 +204,7 @@ button:active {
 
 
 
-   .classificacao-IMC .container-items{
-    grid-template-columns: 1fr;
-   }
+    .classificacao-IMC .container-items {
+        grid-template-columns: 1fr;
+    }
 }
-

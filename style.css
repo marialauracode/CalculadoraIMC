@@ -34,7 +34,7 @@ body {
 
 .container-IMC .texto p {
     color: #A4AAA8;
-    line-height: 20px;
+    line-height: 1.4rem;
     margin-top: -50px;
     font-size: 1rem
 }
@@ -155,4 +155,49 @@ button:active {
 
 
 /* Responsividade */
+
+@media (max-width: 785px) {
+    body{
+       flex-wrap: wrap; 
+    }
+
+    .container-IMC{
+        width: 90%;
+        padding:30px;
+    }
+
+    .container-IMC .texto h1 {
+        font-size:2.4rem;
+
+    }
+
+    br {
+        display: none;
+    }
+
+    .container-IMC .texto p {
+        line-height: 1.6;
+
+    }
+
+    .inputs-calculo-IMC input {
+        width: 310px;
+    }
+
+    button{
+        
+    }
+
+
+
+
+
+
+
+
+
+   .classificacao-IMC .container-items{
+    grid-template-columns: 1fr;
+   }
+}
 

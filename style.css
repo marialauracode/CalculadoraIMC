@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+
 
 body {
     background-color: aliceblue;
@@ -13,7 +16,6 @@ body {
     overflow-x: hidden;
     width: 100vw;
     position: relative;
-
 }
 
 
@@ -53,12 +55,13 @@ body {
     display: block;
     border: none;
     background-color: transparent;
-    width: 390px;
     border-bottom: 2px solid #cfcfcf;
     cursor: text;
     outline: none;
     margin-bottom: 33px;
     padding-top: 10px;
+    width: 100%;
+    max-width: 390px;
 }
 
 input::placeholder {
@@ -67,7 +70,8 @@ input::placeholder {
 
 
 button {
-    width: 384px;
+    width: 100%;
+    max-width: 390px;
     padding: 10px;
     border-radius: 9px;
     margin: 20px;
@@ -138,7 +142,7 @@ button:active {
     height: 200px;
     background-color: #0AAF68;
     border-radius: 10px;
-    margin-left: -70px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -156,7 +160,7 @@ button:active {
     height: 200px;
     background-color: #C3413F;
     border-radius: 10px;
-    margin-left: -70px;
+    margin:0 auto;
     text-align: center;
 }
 
@@ -166,12 +170,13 @@ button:active {
 @media (max-width: 785px) {
     body {
         flex-wrap: wrap;
+        
     }
 
     .container-IMC {
-        width: 90%;
-        padding: 30px;
-        margin-right:120px;
+        width: 100%;
+        max-width: 600px;
+        padding:20px;
     }
 
     .container-IMC .texto h1 {
@@ -179,23 +184,20 @@ button:active {
 
     }
 
-    .container-IMC .texto p br {
-        display: none;
-    }
-
     .container-IMC .texto p {
         line-height: 1.6;
+
     }
 
     .inputs-calculo-IMC input {
         width: 310px;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     button {
         width: 130px;
         padding: 11px;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     #resultadoIMC {
@@ -205,13 +207,13 @@ button:active {
 
     .classificacao-IMC {
         width: 100%;
+        margin-top:-175px
         
     }
 
     .classificacao-IMC .container-items {
         grid-template-columns: 1fr;
-        gap: 30px;
-        margin: -50px;
+        gap: 20px;
     }
 
     .container-items .magreza,

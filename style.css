@@ -103,7 +103,7 @@ button:active {
     margin-top: 120px;
     height: 550px;
     display: grid;
-    justify-content:space-between;
+    justify-content: space-between;
     grid-template-columns: repeat(2, 1fr);
     color: white;
     gap: 60px
@@ -166,6 +166,7 @@ button:active {
 @media (max-width: 785px) {
     body {
         flex-wrap: wrap;
+        position: relative;
 
     }
 
@@ -216,7 +217,7 @@ button:active {
     }
 
     .container-items p {
-        font-size:1rem;
+        font-size: 1rem;
 
     }
 
@@ -229,7 +230,5 @@ button:active {
         width: 250px;
         height: 210px;
     }
-
-
 
 }

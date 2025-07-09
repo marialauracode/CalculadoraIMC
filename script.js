@@ -35,7 +35,7 @@ function calcular() {
         }
 
     }
- 
+
     inputAltura.value = ""
     inputPeso.value = ""
 

@@ -174,7 +174,7 @@ button:active {
 
     }
 
-    .container-IMC .texto p br{
+    .container-IMC .texto p br {
         display: none;
     }
 
@@ -194,38 +194,27 @@ button:active {
     }
 
     #resultadoIMC {
-        margin-top:30px;
+        margin-top: 30px;
     }
 
-    .classificacao-IMC{
+    .classificacao-IMC {
         width: 50%;
-        padding:30px;
-        margin-top:-190px;
+        padding: 30px;
+        margin-top: -190px;
     }
 
     .classificacao-IMC .container-items {
         grid-template-columns: 1fr;
-        gap:30px;
-        margin:-50px;
-        margin-top:150px
+        gap: 30px;
+        margin: -50px;
+        margin-top: 150px
     }
 
-    .container-items .magreza {
-        width: 250px;
-        height: 210px;
-    }
-
-    .container-items .normal {
-        width: 250px;
-        height: 210px;
-    }
-
-     .container-items .sobrepeso {
-        width: 250px;
-        height: 210px;
-    }
-
-     .container-items .obesidade {
+    .container-items .magreza,
+    .container-items .normal,
+    .container-items .sobrepeso,
+    .container-items .obesidade {
+        margin: 0 auto;
         width: 250px;
         height: 210px;
     }

@@ -10,6 +10,9 @@ body {
     display: flex;
     height: 100vh;
     justify-content: center;
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
 
 }
 
@@ -91,13 +94,15 @@ button:active {
 }
 
 .classificacao-IMC .container-items {
-    width: 590px;
-    margin-top: 147px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 120px;
     height: 550px;
     display: grid;
     justify-content: space-around;
     grid-template-columns: repeat(2, 1fr);
     color: white;
+    gap:100px
 }
 
 .container-items img {
@@ -161,7 +166,6 @@ button:active {
 @media (max-width: 785px) {
     body {
         flex-wrap: wrap;
-        overflow-x: hidden;
     }
 
     .container-IMC {

@@ -171,6 +171,7 @@ button:active {
     .container-IMC {
         width: 90%;
         padding: 30px;
+        margin-right:120px;
     }
 
     .container-IMC .texto h1 {
@@ -199,6 +200,7 @@ button:active {
 
     #resultadoIMC {
         margin-top: 30px;
+        font-size:1.1rem
     }
 
     .classificacao-IMC {

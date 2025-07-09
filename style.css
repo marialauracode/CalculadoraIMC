@@ -161,6 +161,7 @@ button:active {
 @media (max-width: 785px) {
     body {
         flex-wrap: wrap;
+        overflow-x: hidden;
     }
 
     .container-IMC {
@@ -203,7 +204,32 @@ button:active {
     }
 
     .classificacao-IMC .container-items {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        gap:30px;
+        margin:-50px;
+        margin-top:150px
     }
+
+    .container-items .magreza {
+        width: 250px;
+        height: 210px;
+    }
+
+    .container-items .normal {
+        width: 250px;
+        height: 210px;
+    }
+
+     .container-items .sobrepeso {
+        width: 250px;
+        height: 210px;
+    }
+
+     .container-items .obesidade {
+        width: 250px;
+        height: 210px;
+    }
+
+
 
 }

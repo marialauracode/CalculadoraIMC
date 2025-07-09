@@ -211,6 +211,15 @@ button:active {
         gap: 20px;
     }
 
+    .container-items h2 {
+        font-size: 1.6rem;
+    }
+
+    .container-items p {
+        font-size:1rem;
+
+    }
+
     .container-items .magreza,
     .container-items .normal,
     .container-items .sobrepeso,
